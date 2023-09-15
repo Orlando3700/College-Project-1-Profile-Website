@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Profile Page</title>
+	<title>Orlando Fernand</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	img {
+	  border: 1px solid #ddd;
+	  border-radius: 8px;
+	  padding: 5px;
+	  width: 150px; 
+	  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+	</style>
 </head>
 <body>
 
-<h1> Profile Information </h1>
+<div class="header">
+<a href="#name" class="orlando" style="text-decoration:none; color: black; text-align: center; font-family:verdana; font-size: 40px;">Orlando Fernand</a>
+<ul>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#profile">Profile</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#programming">Programming Skills</a></li>
+<li><a href="#interests">General Interests</a></li>
+<li><a href="#media">Favorite Media</a></li>
+<li><a href="#websites">Favorite Websites</a></li>
+<li><a href="#projects">Course Projects</a></li>
+</ul>
+</div>
+
+<img src="IMG_2122.JPG"style="width:150px" class="center">
+
+<h1> Profile </h1>
+<section id="profile">
 <table>
 	<tr>
 		<th> Student Name</th>
@@ -13,14 +63,13 @@
 	</tr>
 	<tr>
 		<td> Orlando Fernand</td>
-		<td>Computer Science</td>
-			
+		<td>Computer Science</td>			
 	</tr>
 </table>
+</section>
 
-<img src="IMG_2122.JPG" width="50%">
-
-<h1> Education Summary </h1>
+<h1> Education </h1>
+<section id="education">
 <p>
   I went to Saint Edmund Preparatory high school. 
   I'm currently at Saint John's University studying computer science. 
@@ -29,17 +78,22 @@
 </p>
 
 <h2> Diplomas </h2>
-<ul>
-	<li> High School Diploma </li>			
-</ul>
 
-<h1> Work Experience and Internships</h1>
-<ul>
-	<li> Walgreens </li>
-	<li> Kings Bay Y Summer Day Camp</li>			
-</ul>
+<dl>
+  <dt>High School Diploma</dt>
+  </dl>			
+
+<h1> Experience </h1>
+<section id="experience">
+
+<dl>
+  <dt>Walgreens</dt>
+  <dt>Kings Bay Y Summer Day Camp</dt>
+</dl>		
+</section>
 
 <h1> Programming Skills</h1>
+<section id="programming">
 <p>
   My programming skills are good. I'm able to write basic code in Java.
   I'm able to write code that deals with using data structures, calculators,
@@ -58,8 +112,10 @@
   <dt>Golang</dt>
   <dd>- Basic level of experience</dd>
 </dl>
+</section>
 
 <h1> General Interests</h1>
+<section id="interests">
 <p>
   My interests and hobbies are coding, writing, drawing, and painting.
   When it comes to writing, I like to write stories that deal with
@@ -68,28 +124,26 @@
   random things on eclipse. I've been interested in learning about other
   programming languages besides Java. 
 </p>
+</section>
 
-<h1> Favorite Song, Film, and TV Show</h1>
+<h1> Favorite Media</h1>
+<section id="media">
 
 <h2> Favorite Song </h2>
-<video width="320" height="240" controls>
-  <source src="Whitney Houston - One Moment In Time (Official HD Video).mp4" type="video/mp4">
-  <source src="Whitney Houston - One Moment In Time (Official HD Video).ogg" type="video/ogg">
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/7L9EMe-7Z4w">
+</iframe>
 
 <h2> Favorite Film </h2>
-<video width="320" height="240" controls>
-  <source src="Titanic 25th Anniversary | Official Trailer (360p).mp4" type="video/mp4">
-  <source src="Titanic 25th Anniversary | Official Trailer (360p).ogg" type="video/ogg">
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/oHY7D7K58BM">
+</iframe>
 
 <h2> Favorite TV Show </h2>
-<video width="320" height="240" controls>
-  <source src="House of the Dragon | Official Trailer | Max.mp4" type="video/mp4">
-  <source src="House of the Dragon | Official Trailer | Max.ogg" type="video/ogg">
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/DotnJ7tTA34">
+</iframe>
+</section>
 
 <h1> Favorite Websites</h1>
+<section id="websites">
 <a href="https://www.macys.com/"> Click here to visit Macys </a>
 
 <p>
@@ -127,26 +181,24 @@
   multiple types of content for people to watch. 
   </span>
 </p>
+</section>
 
-<h1> Menu</h1>
-<a href="#profileInformation">Go to Profile Information</a>
-<a href="#educationSummary">Go to Education Summary</a>
-<a href="#workExperience">Go to Work Experience</a>
-<a href="#programmingSkills">Go to Programming Skills</a>
-<a href="#generalInterests">Go to General Interests</a>
-<a href="#favoriteSongFilmTVShow">Go to Favorite Song, Film, and TV Show</a>
-<a href="#favoriteWebsites">Go to Favorite Websites</a>
-<a href="#myProjectsInThisCourse">Go to My Projects in this Course</a>
+<h1> Course Projects</h1>
+<section id="projects">
+<a href=
+https://github.com/Orlando3700/Project-1/settings/pages> To view my course projects, click here </a>
+</section>
 
+<h1>Menu</h1>
+<section id="menu">
 <form>
-	<div> 
-		Search: <input name="username" type="text"/>
-		<input type="submit">
-	</div>
+<div>
+<label> Submit:</label>
+<input type="search" id="menu" name="q" />
+<button>Submit</button>
+</div>
 </form>
-
-<h1> My Projects in this Course</h1>
-<a href="https://stjohns.instructure.com/courses/69342/assignments/486856"> Click here to visit St.John's Page </a>
+</section>
 
 
 </body>
