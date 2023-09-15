@@ -10,7 +10,7 @@
 	  padding: 5px;
 	  width: 150px; 
 	  }
-	  ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ li a:hover {
 <body>
 
 <div class="header">
-<a href="#name" class="orlando" style="text-decoration:none; color:black; text-align: center; font-family:verdana; font-size: 40px;">Orlando Fernand</a>
+<a href="#name" class="orlando" style="text-decoration:none; color: black; text-align: center; font-family:verdana; font-size: 40px;">Orlando Fernand</a>
 <ul>
 <li><a href="#menu">Menu</a></li>
 <li><a href="#profile">Profile</a></li>
@@ -63,8 +63,7 @@ li a:hover {
 	</tr>
 	<tr>
 		<td> Orlando Fernand</td>
-		<td>Computer Science</td>
-			
+		<td>Computer Science</td>			
 	</tr>
 </table>
 </section>
@@ -91,14 +90,12 @@ li a:hover {
   <dt>Walgreens</dt>
   <dt>Kings Bay Y Summer Day Camp</dt>
 </dl>		
-
 </section>
 
 <h1> Programming Skills</h1>
 <section id="programming">
 <p>
-
- My programming skills are good. I'm able to write basic code in Java.
+  My programming skills are good. I'm able to write basic code in Java.
   I'm able to write code that deals with using data structures, calculators,
   and mathematical algorithms. I don't know many programming languages.
   I only know the basic features of C++, C, and Golang.
@@ -132,7 +129,6 @@ li a:hover {
 <h1> Favorite Media</h1>
 <section id="media">
 
-
 <h2> Favorite Song </h2>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/7L9EMe-7Z4w">
 </iframe>
@@ -164,7 +160,6 @@ li a:hover {
   Apple.com is a website where people can shop for various Apple products
   including iPhone, iPad, and Mac.
   </span>
-
 </p>
 
 <a href="https://www.disney.com/"> Click here to visit Disney </a>
@@ -195,7 +190,6 @@ https://github.com/Orlando3700/Project-1/settings/pages> To view my course proje
 </section>
 
 <h1>Menu</h1>
-
 <section id="menu">
 <form>
 <div>
